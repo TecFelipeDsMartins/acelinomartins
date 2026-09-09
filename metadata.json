@@ -1,0 +1,6 @@
+{
+  "name": "Acelino Martins - Personal Dancer",
+  "description": "Apresentação e agendamento de Acelino Martins, Personal Dancer e Dançarino Acompanhante especialista em dança gaúcha, fandango e dança de salão em Porto Alegre e Região.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

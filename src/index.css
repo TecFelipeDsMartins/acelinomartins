@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-primary: #1B4D3E;
+  --color-primary-dark: #12372C;
+  --color-secondary: #8B1E2B;
+  --color-gold: #C5A038;
+  --color-gold-light: #E0BA55;
+  --color-parchment: #FFF8F6;
+  --color-linen: #F5EFEB;
+  --color-flax: #EDE4DC;
+  --color-charcoal: #231916;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+/* Subtle keyline borders */
+.border-gold-subtle {
+  border-color: rgba(197, 160, 56, 0.28);
+}
+
+.border-charcoal-subtle {
+  border-color: rgba(44, 34, 30, 0.09);
+}
+
