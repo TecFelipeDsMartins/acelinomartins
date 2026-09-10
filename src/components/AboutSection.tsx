@@ -25,7 +25,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                 <img
                   src={portraitUrl}
                   alt="Acelino Martins - Dançarino e Instrutor Tradicionalista"
-                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>
@@ -35,12 +35,12 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               <div className="aspect-[16/9] w-full overflow-hidden">
                 <img
                   src={diplomaUrl}
-                  alt="Certificado de Formação em Danças Gaúchas de Fandango"
-                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
+                  alt="Certificado de Formação em Danças de salão"
+                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="bg-[#1B4D3E] text-[#FFF8F6] text-center py-2 px-3 text-xs sm:text-xs font-semibold uppercase tracking-wider border-t border-[#C5A038]/40">
-                Formado em Danças Gaúchas de Fandango
+                Formado em Danças de salão
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                 </div>
                 <div>
                   <h4 className="font-serif font-bold text-sm sm:text-base text-[#231916]">
-                    Certificado em Dança Gaúcha e de Fandango
+                    Certificado em Dança de Salão
                   </h4>
                   <p className="text-xs sm:text-sm text-[#231916]/75 mt-0.5">
                     Formação tradicional sólida em CTGs e academias de renome.

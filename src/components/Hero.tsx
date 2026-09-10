@@ -111,7 +111,7 @@ export const Hero: React.FC<HeroProps> = ({ heroImageUrl, onOpenSimulator }) => 
                   <img
                     src={heroImageUrl}
                     alt="Acelino Martins - Personal Dancer e Dançarino Acompanhante"
-                    className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
+                    className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
                     loading="eager"
                   />
 

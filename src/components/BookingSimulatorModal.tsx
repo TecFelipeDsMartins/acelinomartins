@@ -34,7 +34,7 @@ export const BookingSimulatorModal: React.FC<BookingSimulatorModalProps> = ({
       `• *Tipo de Evento:* ${eventType}\n` +
       `• *Data:* ${date || 'A combinar'}\n` +
       `• *Cidade:* ${city}\n` +
-      `• *Ritmos de Preferência:* ${rhythms.join(', ') || 'Dança Gaúcha geral'}\n` +
+      `• *Ritmos de Preferência:* ${rhythms.join(', ') || 'Dança de Salão'}\n` +
       (notes ? `• *Observações:* ${notes}\n` : '') +
       `\nPoderia me informar sobre disponibilidade e detalhes?`;
 

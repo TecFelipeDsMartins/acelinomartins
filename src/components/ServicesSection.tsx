@@ -90,7 +90,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ cardImageUrl, 
                 Personal Dancer & Acompanhante
               </div>
               <div className="text-[11px] text-[#231916]/80 space-y-1 mb-4">
-                <div>✦ Dança Gaúcha & Salão</div>
+                <div>✦ Dança de Salão</div>
                 <div>✦ Eventos, Bailes & Galas</div>
                 <div>✦ Atendimento Personalizado</div>
               </div>
